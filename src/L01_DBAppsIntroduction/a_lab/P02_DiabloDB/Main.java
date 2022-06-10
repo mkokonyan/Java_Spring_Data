@@ -1,4 +1,4 @@
-package L01_DBAppsIntroduction.P02_DiabloDB;
+package L01_DBAppsIntroduction.a_lab.P02_DiabloDB;
 
 import java.sql.*;
 import java.util.Properties;
@@ -10,7 +10,7 @@ public class Main {
 
         Properties props = new Properties();
         props.setProperty("user", "root");
-        props.setProperty("password", scanner.nextLine());
+        props.setProperty("password", "");
 
         Connection connection = DriverManager
                 .getConnection("jdbc:mysql://localhost:3306/diablo", props);

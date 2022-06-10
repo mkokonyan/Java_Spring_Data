@@ -1,4 +1,4 @@
-package L01_DBAppsIntroduction.P01_InspectSoftUniDB;
+package L01_DBAppsIntroduction.a_lab.P01_InspectSoftUniDB;
 
 import java.sql.*;
 import java.util.Properties;
