@@ -61,9 +61,6 @@ public class P06_RemoveVillain {
 
             connection.rollback();
         }
-
-
-
         connection.close();
     }
 }
