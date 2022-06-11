@@ -35,5 +35,7 @@ public class P08_IncreaseMinionsAge {
 
             System.out.println(minionName +  " " + minionAge);
         }
+
+        connection.close();
     }
 }

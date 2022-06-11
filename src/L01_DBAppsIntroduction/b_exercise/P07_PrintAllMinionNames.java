@@ -28,5 +28,7 @@ public class P07_PrintAllMinionNames {
             System.out.println(printList.get(i));
             System.out.println(printList.get(printList.size() - i - 1));
         }
+
+        connection.close();
     }
 }
