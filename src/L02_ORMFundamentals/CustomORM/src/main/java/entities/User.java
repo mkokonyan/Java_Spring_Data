@@ -21,10 +21,23 @@ public class User {
     @Column(name = "registration_date")
     private LocalDate registrationDate;
 
+    @Column(name = "last_logged_in")
+    private LocalDate lastLoggedIn;
+
+
+    public User() {};
     public User(String username, int age, LocalDate registrationDate) {
         this.username = username;
         this.age = age;
         this.registrationDate = registrationDate;
+        this.lastLoggedIn = LocalDate.now();
+    }
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
     }
 
     public String  getUsername() {
@@ -49,5 +62,24 @@ public class User {
 
     public void setRegistrationDate(LocalDate registrationDate) {
         this.registrationDate = registrationDate;
+    }
+
+    public void setLastLoggedIn(LocalDate lastLoggedIn) {
+        this.lastLoggedIn = lastLoggedIn;
+    }
+
+    public LocalDate getLastLoggedIn() {
+        return lastLoggedIn;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", age=" + age +
+                ", registrationDate=" + registrationDate +
+                ", lastLoggedIn=" + lastLoggedIn +
+                '}';
     }
 }
