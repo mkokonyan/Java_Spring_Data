@@ -28,7 +28,7 @@ public class Main {
         Iterable<User> first = userEntityManager.find(User.class);
         System.out.println(first.toString());
 
-        User toDelete = userEntityManager.findFirst(User.class, "id=3");
+        User toDelete = userEntityManager.findFirst(User.class, "id>3");
         System.out.println(toDelete);
 
         userEntityManager.delete(toDelete);

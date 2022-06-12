@@ -320,10 +320,14 @@ public class EntityManager<E> implements DBContext<E> {
 
     private Set<String> getSQLColumnNames(Class<E> entityClass) throws SQLException {
 
-        String schemaQuery = "SELECT `COLUMN_NAME` FROM `INFORMATION_SCHEMA`.`COLUMNS` c" +
+        String tableName = getTableName(entityClass);
+        Field idColumn = getIdColumn(entityClass);
+        String idColumnName = idColumn.getAnnotationsByType(Column.class)[0].name();
+
+        String schemaQuery = String.format("SELECT `COLUMN_NAME` FROM `INFORMATION_SCHEMA`.`COLUMNS` c" +
                 " WHERE c.TABLE_SCHEMA = 'custom_orm' " +
-                " AND `COLUMN_NAME` != 'id' " +
-                " AND `TABLE_NAME` = 'users';";
+                " AND `COLUMN_NAME` != '%s' " +
+                " AND `TABLE_NAME` = '%s';", idColumnName, tableName);
 
         PreparedStatement statement = connection.prepareStatement(schemaQuery);
         ResultSet resultSet = statement.executeQuery();
