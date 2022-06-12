@@ -36,6 +36,6 @@ public class Main {
         Iterable<User> second = userEntityManager.find(User.class);
         System.out.println(second.toString());
 
-
+        connection.close();
     }
 }
