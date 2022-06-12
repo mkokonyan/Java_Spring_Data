@@ -53,7 +53,7 @@ public class EntityManager<E> implements DBContext<E> {
         Object idValue = idColumn.get(entity);
 
         if (idValue == null || (long) idValue <= 0) {
-            return doInsert(entity, idColumn);
+            return doInsert(entity);
         }
 
         return doUpdate(entity, (long) idValue);
@@ -82,7 +82,7 @@ public class EntityManager<E> implements DBContext<E> {
         return statement.execute();
     }
 
-    private boolean doInsert(E entity, Field idColumn) throws SQLException, IllegalAccessException {
+    private boolean doInsert(E entity) throws SQLException, IllegalAccessException {
 
         String tableName = getTableName(entity.getClass());
         List<String> tableFields = getColumnsWithoutId(entity.getClass());
@@ -243,7 +243,7 @@ public class EntityManager<E> implements DBContext<E> {
             Object o = field.get(entity);
 
             if (o instanceof String || o instanceof LocalDate) {
-                values.add("'" + o.toString() + "'");
+                values.add("'" + o + "'");
             } else {
                 values.add(o.toString());
             }
