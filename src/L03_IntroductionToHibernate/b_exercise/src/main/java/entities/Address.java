@@ -49,4 +49,10 @@ public class Address {
     public void setEmployees(Set<Employee> employees) {
         this.employees = employees;
     }
+
+    @Override
+    public String toString() {
+        return String.format("%s, %s - %d employees",
+                this.getText(), this.getTown() == null ? "" :this.getTown().getName(), this.employees.size());
+    }
 }
