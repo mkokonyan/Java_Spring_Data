@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8ae17aec-6fc2-44b2-aee5-22693c07e359" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Spring-Data-02-22.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../L03_IntroductionToHibernate/.idea/L03_IntroductionToHibernate.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/P01_GringottsDatabase/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/P01_GringottsDatabase/WizardsDeposits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/P02_SalesDatabase/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/P02_SalesDatabase/entities/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/P02_SalesDatabase/entities/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/P02_SalesDatabase/entities/Sale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/P02_SalesDatabase/entities/StoreLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/P03_UniversitySystem/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/P03_UniversitySystem/entities/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/P03_UniversitySystem/entities/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/P03_UniversitySystem/entities/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/P03_UniversitySystem/entities/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2AeuBxhdsrUS2jRcUxcMzpjHXNP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Programming/Java/Spring-Data-02-22/src/L04_HibernateCodeFirst/b_exercise/src/main/resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="P03_UniversitySystem.entities" />
+      <recent name="P02_SalesDatabase.entities" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programming\Java\Spring-Data-02-22\src\L04_HibernateCodeFirst\b_exercise\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="P03_UniversitySystem" />
+      <recent name="P02_SalesDatabase" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.P03_UniversitySystem.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="b_exercise" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P01_GringottsDatabase.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P01_GringottsDatabase.Main" />
+      <module name="b_exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="P01_GringottsDatabase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P02_SalesDatabase.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P02_SalesDatabase.Main" />
+      <module name="b_exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="P02_SalesDatabase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P03_UniversitySystem.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P03_UniversitySystem.Main" />
+      <module name="b_exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="P03_UniversitySystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.P03_UniversitySystem.Main" />
+        <item itemvalue="Application.P02_SalesDatabase.Main" />
+        <item itemvalue="Application.P01_GringottsDatabase.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ae17aec-6fc2-44b2-aee5-22693c07e359" name="Changes" comment="" />
+      <created>1655382242295</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655382242295</updated>
+      <workItem from="1655382243615" duration="8320000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
